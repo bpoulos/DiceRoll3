@@ -134,6 +134,11 @@ public void settings(View view){
         dice21.setText("0"); dice22.setText("0"); dice23.setText("2"); dice24.setText("2"); dice25.setText("3"); dice26.setText("4");
         //setting third dice
         dice31.setText("0"); dice32.setText("1"); dice33.setText("2"); dice34.setText("3"); dice35.setText("4"); dice36.setText("5");
+        //resetting dice and total text
+        editText1.setText(""+0);
+        editText2.setText(""+0);
+        editText3.setText(""+0);
+        total.setText("Total: Nil");
         //completely resets the arraylists to default
         setValues();
     }
