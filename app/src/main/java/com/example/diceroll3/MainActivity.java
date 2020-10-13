@@ -193,7 +193,7 @@ public void setValues(){
     spe.putInt("key35",+dice35int);
     spe.putInt("key36",+dice36int);
     spe.commit();
-    Toast.makeText(MainActivity.this, "Settings have been set and saved to device.", Toast.LENGTH_LONG).show();
+    Toast.makeText(MainActivity.this, "Settings have been set and saved to device.", Toast.LENGTH_SHORT).show();
     //end
 }
 }
